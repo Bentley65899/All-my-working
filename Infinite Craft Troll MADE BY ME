@@ -1,0 +1,16 @@
+//   Made By Bentley65899
+document.querySelector('.trash').click();
+
+
+setTimeout(function() {
+   
+    const itemRemoveButtons = document.querySelectorAll('.item-remove');
+
+   
+    itemRemoveButtons.forEach(button => {
+        button.click();
+    });
+
+    
+    document.querySelector('.trash').click();
+}, 5); =
