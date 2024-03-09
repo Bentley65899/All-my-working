@@ -1,4 +1,4 @@
-
+// made by bentley65899
 const interval = setInterval(function() {
     var problem = document.getElementsByClassName("card-title");
     for (var i = 0; i < problem.length; i++) {
