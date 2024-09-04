@@ -1,0 +1,7 @@
+// Get all elements with the class 'FavoritingOverlay--Icon'
+const buttons = document.querySelectorAll('.FavoritingOverlay--Icon');
+
+// Loop through each button and click it
+buttons.forEach(button => {
+    button.click();
+});
